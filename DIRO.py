@@ -7,9 +7,12 @@ con=he.read()
 print(con+"\n")
 print("usage: url  options wordlist file-ext \n" )
 print("type script name and o to see the options  ")
-if str(sys.argv[1])=='o':
+try:
+   if str(sys.argv[1])=='o':
        print("v ------> own wordlist \nvv ------> re define common wordlist file \nvvv ------> pre define big wordlist file")
        exit()
+except:
+       pass
 if len(sys.argv) !=5:
    print("usage: url  options wordlist file-ext\n" )
    sys.exit(0)
