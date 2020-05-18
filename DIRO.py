@@ -50,7 +50,7 @@ for file in file1:
     if(req.getcode()==200):
       found.append(url)
     req.close()
-  except (urllib.error.HTTPError) as e:
+  except (urllib.error.HTTPError,urllib.error.URLError) as e:
      pass
 
 if(len(found)>0):
