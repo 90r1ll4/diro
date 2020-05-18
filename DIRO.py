@@ -21,9 +21,6 @@ try:
 except:
     pass
 
-#if options[0] != '-' or wordlist[0] !='-' or ext[0]!='-' :
-#    print("You forgot - ")
-#    exit()
 baseurl=baseurl.strip("-")
 
 ext=ext.strip("-")
