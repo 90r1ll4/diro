@@ -1,8 +1,8 @@
 # DIRO
 This is self made directory buster
-<h1> format </h1>
+<h1> FORMAT </h1>
 python ./script_name URL OPTIONS WORDLIST EXTENSION
-<h2> options </h2>
+<h1> OPTIONS </h1>
 Use python ./script_name o to see Options
-<h3> NOTE </h3>
+<h1> NOTE </h1>
 Work only on python version >=3
