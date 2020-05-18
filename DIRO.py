@@ -44,7 +44,8 @@ found=[]
 for file in file1:
   file=file.strip("\n")
   ext=ext.rstrip()
-  url=baseurl+file+"."+str(ext.strip("."))
+  baseurl=baseurl.rstrip('/')
+  url=baseurl+"/"+file+"."+str(ext.strip("."))
   try:
     req=urllib.request.urlopen(url)
     if(req.getcode()==200):
